@@ -15,12 +15,29 @@ body{
     flex-direction: column;
     margin: 50px 200px 0 200px;
 }
+.titre{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 .sous-titre{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 10px;
     width: 70%;
+    padding: 10px 0 30px 0;
+}
+.sous-titre div{
+    color: var(--Gray-2, #4F4F4F);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
 }
 .sous-titre img{
     padding-top: 5px;
@@ -29,10 +46,104 @@ body{
 .content{
     display: flex;
     flex-direction: row;
-    margin: 50px 200px 0 200px;
+    margin: 30px 200px 0 200px;
+    gap: 40px;
 }
 .text-section{
     width: 70%;
+}
+.text-section h2{
+    color: var(--Gray-1, #333);
+    font-family: Playfair Display sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-section input{
+    border-radius: 4px;
+    border: 1px solid var(--Gray-3, #828282);
+}
+.ingredients p{
+    color: var(--Gray-1, #333);
+    font-family: Playfair Display, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0 ;
+}
+.elements{
+    padding: 10px 0;
+    color: var(--Gray-1, #333);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+}
+ol {
+    list-style-type: none; /* Remove default numbering */
+    padding-left: 10px; /* Remove default left padding */
+}
+
+/* Style the list items */
+li {
+    counter-increment: my-counter; /* Increment a custom counter */
+    padding-left: 20px; /* Add left padding to create space for numbers */
+    position: relative; /* Position relative for proper placement of numbers */
+    margin-right: 10px;
+}
+
+/* Style the list item numbers */
+li::before {
+    content: counter(my-counter); /* Use the value of the custom counter as content */
+    display: inline-block;
+    width: 20px; /* Adjust the width as needed to fit the numbers */
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    left: -10px; /* Position numbers to the left of the list item content */
+    top: 0; /* Position numbers at the top of the list item content */
+    border-radius: 6px;
+    color: #FFF;
+    background: var(--Orange, #F2994A);
+}
+.instruction p{
+    color: var(--Gray-4, #BDBDBD);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.sideBar{
+    width: 20%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.part{
+    padding: 15px 0;
+}
+.title{
+    color: var(--Gray-4, #BDBDBD);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.info{
+    color: var(--Gray-1, #333);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 footer{
     
