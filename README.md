@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://o09q4e6uhzwiszzfxbqsaw.on.drv.tw/www.my-gallery-master.blog/">
+    <a href="https://kpfbk6fqufc5cxkpgqqnjw.on.drv.tw/www.recipe-page.blog/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/hibounashi/my-gallery-master/blob/master/index.html">
+    <a href="https://github.com/hibounashi/recipe-page-master">
       Solution
     </a>
     <span> | </span>
